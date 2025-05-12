@@ -1,0 +1,190 @@
+header {
+    background-color: #77cfa659;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #c1ebc7;
+}
+
+nav {
+    background-color: #4ab74a94;
+    padding: 10px 0px;
+}
+
+/* navigation bar styles */
+nav a {
+    text-decoration: none;
+    display: inline-block;
+    width: 120px;
+    padding: 15px 15px;
+    margin: 0px 5px;
+    color: #42331a;
+    font-weight: bold;
+    border: solid #3c7b3c;
+}
+
+/* navigation bar hover style */
+nav a:hover {
+    background-color: #5fb85f;
+    color: #4f3508;
+}
+
+main {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.logo {
+    display: block;
+    margin: auto;
+    max-width: 50%;
+    max-height: 10%;
+}
+
+/* all of the main images in all of the pages */
+.main_images {
+    width: 100%;
+}
+/* main image in index page */
+#text_image {
+    background: url("../images/hero_image.jpg") no-repeat;
+    background-size: cover;
+    height: 700px;
+    width: auto;
+    margin: 25px 0px;
+}
+
+/* main h1 in index page */
+#h1_index_page {
+    font-size: 40px;
+    color: #ffffff;
+    padding-top: 490px;
+}
+
+/* h2 text in the index page */
+#h2_text_index {
+    padding-top: 20px;
+}
+
+/* paragraphs in about page */
+#p_about_page {
+    margin: 50px 0px 40px;
+}
+
+/* different paragraphs in about page */
+.p__about_page {
+    margin-top: 50px;
+    text-align: justify;
+}
+
+.contact {
+    background-color: #9beba1;
+    border: #458145 solid;
+}
+
+/* button in the index page */
+#button {
+    margin: 0 auto;
+}
+
+/* button styles */
+#button a {
+    color: #000000;
+    border: 5px solid #458145;
+}
+
+/* button hover style */
+#button a:hover {
+    background-color: #458145;
+    color: #ffffff;
+}
+
+/* multiple sectors for text-align center */
+nav, #h1_index_page, .h1_text, .h2_text, #h2_text_index, .column_h3, .contact, #button, footer {
+    text-align: center;
+}
+/* multiple sectors for text-align justify */
+#p_index_page, .line_below_pages, #p_about_page, div p, .p__about_page {
+    text-align: justify;
+}
+
+/* multiple sectors for border-radius */
+nav a, .contact, #button, ol, .column, div a, div img {
+    border-radius: 10px;
+}
+
+/* multiple sectors for font-size */
+p, .contact, #button, ul, ol, div a {
+    font-size: 20px;
+}
+
+/* multiple sectors for border-bottom */
+.line_below, .line_below_pages {
+    border-bottom: #000000 1px solid;
+}
+
+/* multiple sectors for padding-bottom */
+.line_below, .line_below_pages {
+    padding-bottom: 20px;
+}
+
+.line_below {
+    margin: 25px 20%;
+}
+
+ol {
+    padding: 20px 0px 40px 30px;
+}
+
+li {
+    padding-top: 30px;
+}
+
+/* column of images in the index page */
+.column {
+    max-width: 250px;
+    margin: 0 auto;
+    border: 5px solid #458145;
+}
+
+/* row of images, margin-bottom in the index page */
+.row {
+    margin-bottom: 20px;
+}
+
+/* row after */
+.row::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* images in Link index page */
+div a {
+    color: #000000;
+    text-decoration: none;
+    padding: 10px 20px;
+    border: ridge #308d30;
+}
+
+/* column of images, links hover style */
+div a:hover {
+    background-color: #308d30;
+    color: #ffffff;
+}
+
+/* column of images in the index page */
+div img {
+    border-radius: 5px;
+    width: 100%;
+}
+
+footer {
+    color: #000000;
+    background-color: #6cc39b59;
+    font-size: 18px;
+    margin: 20px 0px;
+    padding: 30px 0px;
+    border: 5px solid #458145;
+}
